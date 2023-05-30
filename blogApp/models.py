@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
+from ckeditor.fields import RichTextField
 
 
 STATUS = ((0, "Draft"), (1, "Published"))
@@ -11,7 +12,7 @@ class Post(models.Model):
     slug = models.SlugField(max_length=250, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
     updated_on = models.DateTimeField(auto_now=True)
-    content = models.TextField()  # change when ckeditor is installed
+    content = RichTextField()
     featured_image = CloudinaryField('image', default='placeholder')
     excerpt = models.TextField(blank=True)
     created_on = models.DateTimeField(auto_now_add=True)

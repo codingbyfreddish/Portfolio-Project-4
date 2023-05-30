@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'ckeditor',
     'blogApp',
 ]
 
@@ -76,6 +77,12 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'blogProject.wsgi.application'
+
+CKEDITOR_CONFIGS = {
+    'default': {
+
+    },
+}
 
 
 # Database
