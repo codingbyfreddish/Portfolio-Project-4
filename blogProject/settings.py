@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'ckeditor',
+    'crispy_forms',
+    'crispy_bootstrap5',
     'blogApp',
 ]
 
@@ -80,6 +82,10 @@ SOCIALACCOUNT_PROVIDERS = {
         }
     },
 }
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
