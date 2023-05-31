@@ -41,12 +41,45 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.github',
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
     'ckeditor',
     'blogApp',
 ]
+
+SITE_ID = 1
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+# Provider specific settings
+SOCIALACCOUNT_PROVIDERS = {
+
+    'google': {
+        'APP': {
+            'client_id': '421496571718-7dr932mv1q7prcrva728h3s6tj5426mq.apps.googleusercontent.com',
+            'secret': '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',
+            'key': ''
+        }
+    },
+
+    'github': {
+        'APP': {
+            'client_id': '5af754e2a9daf4a69a70',
+            'secret': '82301c9e6dc1db80a8e112ffa456409cbb2f8708',
+            'key': ''
+        }
+    },
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
