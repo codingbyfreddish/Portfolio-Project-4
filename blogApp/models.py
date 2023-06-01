@@ -28,6 +28,10 @@ class Post(models.Model):
     def number_of_likes(self):
         return self.likes.count()
 
+    def get_absolute_url(self):
+        from django.urls import reverse
+        return reverse('post_detail', kwargs={'slug': str(self.slug)})
+
 
 class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
