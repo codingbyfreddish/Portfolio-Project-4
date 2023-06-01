@@ -1,0 +1,18 @@
+.fa-thumbs-up {
+    font-size: 120%;
+}
+
+.fa-comments {
+    font-size: 120%;
+}
+
+.btn-like {
+    border: none;
+    background: transparent;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    border: none;
+    background: transparent;
+}
