@@ -1,7 +1,7 @@
 # My Blog
  
  ## Welcome to my fourth Portfolio Project!
-This is my fourth project (of five) for my full-stack dev. course at [Code Institute](https://codeinstitute.net). I choose a Blog application for this project. It runs in the CI mock terminal on [Heroku](www.heroku.com). <br> 
+This is my fourth project (of five) for my full-stack dev. course at [Code Institute](https://codeinstitute.net). I choose a Blog application for this project. It runs on on [Heroku](www.heroku.com). <br> 
 <br><br> The link to the blog can be found [here](https://.herokuapp.com/).
   
 <br>
@@ -29,7 +29,30 @@ This is my fourth project (of five) for my full-stack dev. course at [Code Insti
 - Psycopg2 as database adapter. (Link below in Credit section)
 - Dj Database url as database url. (Link below in Credit section) 
 
-## My Blog - An Agile
+<hr>
+
+## My Blog - An Agile Approach
+
+I used Agile Management to plan and structure the process of making this website. 
+The user stories used where:
+
+- Approve comments: As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments.
+- Create drafts: As a Site Admin I can create draft posts so that I can finish writing the content later.
+- Text editor: As a Site Admin I can use a text editor so that I can manage my blog posts with more stylish content.
+- Manage posts: As a Site Admin I can create, read, update and delete posts so that I can manage my blog content.
+- Like / Unlike: As a Site User I can like or unlike a post so that I can interact with the content.
+- Comment on a post: As a Site User I can leave comments on a post so that I can be involved in the conversation.
+- Account registration: As a Site User I can register an account so that I can comment and like.
+- Social account registration: As a Site User I can register with an social account so that it's easier and faster to log in.
+- View comments: As a Site User / Admin I can view comments on an individual post so that I can read the conversation.
+- View likes: As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral.
+- Open a post: As a Site User I can click on a post so that I can read the full text.
+- View post list: As a Site User I can view a list of posts so that I can select one to read.
+
+I then used Github "project"-feature to set up a board for Todo, In Progress and finally Done. 
+
+<img src="" width="30%">
+
 
 
  
@@ -39,25 +62,50 @@ This is my fourth project (of five) for my full-stack dev. course at [Code Insti
 
 ## Features
 
-* ### 
-    * 
+* ### Main Page 
+    * On the main page the user get the ability to log in or sign up from the links in the navigation bar. The user can also scroll down and read the blog post list, a list of all avaible posts to read. 
 
 <br>
 <img src="" width="30%">
 <hr>
 
-.
-
-<br>
-<img src="" width="40%">
-<hr>    
-
-
+* ### Log In, Sign Up, Log Out
+    * if the user want to comment and/or like the blof post the user can create an account. The user can choose to create an own account using username/password or log in via Github or Google. If the user are currently logged in, the user can choose to log out. 
 
 <br>
 <img src="" width="20%">
 <hr>
 
+
+* ### Blog Post List
+    * The user can scroll through the diffrent blog posts and choose the ones that catches the users interest. 
+
+
+<br>
+<img src="" width="40%">
+<hr>    
+
+* ### Footer
+    * The footer is clean, simple and pragmatic. Just a icon link to my github account with a copyright below.
+
+<br>
+<img src="" width="20%">
+<hr>
+
+* ### The Blog Post
+    * When clicked on the main page the user get redirected to the Blog Post. It contains a image, excerpt, text and the ablity to like and view comments. If the user is logged in, the user can make a comment. The comment needs approvel before being visable on the page tho.
+
+<br>
+<img src="" width="20%">
+<hr>    
+
+* ### RSS feed 
+    * The RSS feed (Really Simple Syndication) is a way to show another feature of django, the syndication feed framework.
+    The user can add My blog to the browers RSS feed and update then a new blog post is published.
+
+<br>
+<img src="" width="20%">
+<hr> 
 
 ## Testing
 
