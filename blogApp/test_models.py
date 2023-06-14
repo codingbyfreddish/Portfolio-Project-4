@@ -25,7 +25,7 @@ class PostModelTest(TestCase):
 
 class CommentModelTest(TestCase):
     @classmethod
-    # Sets up a users, a test post, and test comment
+    # Sets up user, a test post, and test comment
     def setUpTestData(cls):
         user = User.objects.create(username='testuser')
         post = Post.objects.create(
