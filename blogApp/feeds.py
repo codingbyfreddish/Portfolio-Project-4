@@ -1,8 +1,8 @@
 from django.contrib.syndication.views import Feed
 from django.template.defaultfilters import truncatewords
-from .models import Post
+from django.utils.feedgenerator import Atom1Feed
 from django.urls import reverse
-
+from .models import Post
 
 class LatestPostFeed(Feed):
     title = 'Myblog'
@@ -17,3 +17,8 @@ class LatestPostFeed(Feed):
 
     def item_description(self, item):
         return truncatewords(item.content, 30)
+
+    
+class AtomSiteNewsFeed(LatestPostFeed):
+    feed_type = Atom1Feed
+    subtitle = LatestPostFeed.description

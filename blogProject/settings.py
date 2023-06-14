@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pp4-byfreddish.herokuapp.com', 'localhost', '8000-codingbyfre-portfoliopr-c90wshruim2.ws-eu98.gitpod.io']
+ALLOWED_HOSTS = ['pp4-byfreddish.herokuapp.com', 'localhost', '8000-codingbyfre-portfoliopr-la53pykl5p5.ws-eu99.gitpod.io']
 
 
 # Application definition
@@ -127,16 +127,16 @@ CKEDITOR_CONFIGS = {
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 # DATABASES = {
-#     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
 # }
+
+DATABASES = {
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
