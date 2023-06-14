@@ -51,6 +51,8 @@ The user stories used where:
 
 I then used Github "project"-feature to set up a board for Todo, In Progress and finally Done. 
 
+Here is a link to the Project on github [My Blog Agile Project](https://github.com/users/codingbyfreddish/projects/13).
+
 <img src="" width="30%">
 
 
@@ -109,7 +111,24 @@ I then used Github "project"-feature to set up a board for Todo, In Progress and
 
 ## Testing
 
-* 
+* ### A total of 8 diffrent tests are done in 3 diffrent files. 
+  
+    * In [test_models.py](https://github.com/codingbyfreddish/Portfolio-Project-4/blob/main/blogApp/test_models.py) i tested:
+        - The number_of_likes method of the Post model
+        - The __str__ method and compares it to the expected string
+        - That the comments are ordered by -created on
+
+    * In [test_views.py](https://github.com/codingbyfreddish/Portfolio-Project-4/blob/main/blogApp/test_views.py) i tested:
+        - The get method of the PostDetail view
+        - The post method of the PostDetail view
+        - The post method of the PostLike view
+
+    * In [test_forms.py](https://github.com/codingbyfreddish/Portfolio-Project-4/blob/main/blogApp/test_forms.py) i tested:
+        - The form with valid data
+        - The form with empty data
+
+All tests passed.
+<br>
 
 ### Validator Testing
 
@@ -123,7 +142,7 @@ I then used Github "project"-feature to set up a board for Todo, In Progress and
 
 ### Bugs
 
-#### No major bugs encountered
+#### No bugs encountered
 
 <hr>
 
