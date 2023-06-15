@@ -1,7 +1,9 @@
 # My Blog
  
  ## Welcome to my fourth Portfolio Project!
-This is my fourth project (of five) for my full-stack dev. course at [Code Institute](https://codeinstitute.net). I choose a Blog application for this project. It runs on on [Heroku](www.heroku.com). <br> 
+
+This is my fourth project (of five) for my full-stack dev. course at [Code Institute](https://codeinstitute.net). I choose a Blog application for this project. A blog is a good way to show off what Django can do.
+It runs on on [Heroku](www.heroku.com). <br> 
 <br><br> The link to the blog can be found [here](https://.herokuapp.com/).
   
 <br>
@@ -18,16 +20,16 @@ This is my fourth project (of five) for my full-stack dev. course at [Code Insti
 
  Django Apps used are:
 
- - [Allauth]()
- - [Ckeditor]()
- - [Cripsy Forms]()
- - [Cloudinary]()
+ - [Allauth](https://django-allauth.readthedocs.io/en/latest/)
+ - [Ckeditor](https://django-ckeditor.readthedocs.io/en/latest/)
+ - [Cripsy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+ - [Cloudinary](https://pypi.org/project/django-cloudinary-storage/)
 
  PostgreSQL:
 
-- ElephantSQL as PostgreSQL database hosting service. (Link below in Credit section)
-- Psycopg2 as database adapter. (Link below in Credit section)
-- Dj Database url as database url. (Link below in Credit section) 
+- [ElephantSQL](https://www.elephantsql.com/) as PostgreSQL database hosting service. 
+- [Psycopg2](https://www.psycopg.org/docs/) as database adapter. 
+- [Dj Database url](https://pypi.org/project/dj-database-url/)  as database url. 
 
 <hr>
 
@@ -55,11 +57,13 @@ Here is a link to the Project on github [My Blog Agile Project](https://github.c
 
 <img src="" width="30%">
 
-
-
- 
-
 <hr>
+
+## Design and Layout
+
+
+
+
 
 
 ## Features
@@ -104,10 +108,7 @@ Here is a link to the Project on github [My Blog Agile Project](https://github.c
 * ### RSS feed 
     * The RSS feed (Really Simple Syndication) is a way to show another feature of django, the syndication feed framework.
     The user can add My blog to the browers RSS feed and update then a new blog post is published.
-
-<br>
-<img src="" width="20%">
-<hr> 
+ 
 
 ## Testing
 
@@ -155,11 +156,13 @@ All tests passed.
     * Click on 'deploy'.
 <hr>
 
-## Credits
+## Credits/Content
 * All the course material from [CI's 'Full Stack Developer'](https://codeinstitute.net/se/full-stack-software-development-diploma/) curriculum leading up to this project.
-
-### Content
-* 
+* [Google](https://console.cloud.google.com/) for the social login API.
+* Contains code from [Code Institute](https://codeinstitute.net) miniproject [Django Blog](https://github.com/codingbyfreddish/DjangoBlog)
+* Contains code from https://djangocentral.com/building-a-blog-application-with-django/
+* Contains code from the documentation from all the "Django Apps used".
+* CSS/templates from Start Bootstrap's [Clean Blog](https://startbootstrap.com/theme/clean-blog)
 * The deployment section in this readme file is from the sample from [Code Institute](https://codeinstitute.net).
 
 ## Acknowledgments
