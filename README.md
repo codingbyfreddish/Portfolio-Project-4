@@ -8,11 +8,6 @@ This is my fourth project (of five) for my full-stack dev. course at [Code Insti
 
 It runs on on [Heroku](www.heroku.com). The link to the blog can be found [here](https://pp4-byfreddish.herokuapp.com/).
 
-  
-<br>
-<img src="" width="30%">
-<hr>
-
 ## Technologies Used
 
  For this project i used:
