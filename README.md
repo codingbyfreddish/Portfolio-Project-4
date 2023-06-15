@@ -3,8 +3,8 @@
  ## Welcome to my fourth Portfolio Project!
 
 This is my fourth project (of five) for my full-stack dev. course at [Code Institute](https://codeinstitute.net). I choose a Blog application for this project. A blog is a good way to show off what Django can do.
-It runs on on [Heroku](www.heroku.com). <br> 
-<br><br> The link to the blog can be found [here](https://.herokuapp.com/).
+It runs on on [Heroku](www.heroku.com). <br> The link to the blog can be found [here](https://.herokuapp.com/).
+
   
 <br>
 <img src="" width="30%">
@@ -65,8 +65,6 @@ For this project i used Start Bootstrap's [Clean Blog](https://startbootstrap.co
 making an app using Flask for a [Code Institute](https://codeinstitute.net) mini-project and thought it would go perfect with this blog.
 
 
-
-
 ## Features
 
 * ### Main Page 
@@ -113,11 +111,11 @@ making an app using Flask for a [Code Institute](https://codeinstitute.net) mini
 
 ## Testing
 
-* ### A total of 8 diffrent tests are done in 3 diffrent files. 
+* ### A total of 8 diffrent tests are done in 3 different files. 
   
     * In [test_models.py](https://github.com/codingbyfreddish/Portfolio-Project-4/blob/main/blogApp/test_models.py) i tested:
         - The number_of_likes method of the Post model
-        - The __str__ method and compares it to the expected string
+        - The str method and compares it to the expected string
         - That the comments are ordered by -created on
 
     * In [test_views.py](https://github.com/codingbyfreddish/Portfolio-Project-4/blob/main/blogApp/test_views.py) i tested:
@@ -138,6 +136,8 @@ All tests passed.
     * The pep8 validator used is from [Code Institute](https://codeinstitute.net)
     * Link to it can be found here: [Python PEP8 validator from CI](https://pep8ci.herokuapp.com/)
 
+Passed with zero errors.
+
 ### Bugs
 
 #### No bugs encountered
@@ -154,18 +154,17 @@ All tests passed.
         - Click on 'Deploy Branch'.
     
 * Steps for final deployment on [Heroku](https://www.heroku.com/)
+    * Set 'DEBUG = False' in settings.py
+    * Make any adjustments needed in Settings/Config Vars on Heroku
+    * Finally; click on 'Deploy Branch' in the Deploy tab.
 
 <hr>
 
 ## Credits/Content
 * All the course material from [CI's 'Full Stack Developer'](https://codeinstitute.net/se/full-stack-software-development-diploma/) curriculum leading up to this project.
 * [Google](https://console.cloud.google.com/) for the social login API.
-* Contains code from [Code Institute](https://codeinstitute.net) miniproject [Django Blog](https://github.com/codingbyfreddish/DjangoBlog)
-* Contains code from https://djangocentral.com/building-a-blog-application-with-django/
+* Contains code (models.py/views.py) from [Code Institute](https://codeinstitute.net) miniproject [Django Blog](https://github.com/codingbyfreddish/DjangoBlog)
+* Many of the user stories are from [Code Institute](https://codeinstitute.net) miniproject [Django Blog](https://github.com/codingbyfreddish/DjangoBlog)
+* Contains code (models.py/views.py) from https://djangocentral.com/building-a-blog-application-with-django/
 * Contains code from the documentation from all the "Django Apps used", links up in the section.
 * CSS/templates from Start Bootstrap's [Clean Blog](https://startbootstrap.com/theme/clean-blog)
-
-## Acknowledgments
-* 
-
-
