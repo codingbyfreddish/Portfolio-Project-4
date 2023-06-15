@@ -172,3 +172,4 @@ Passed with zero errors.
 * Contains code (models.py/views.py) from https://djangocentral.com/building-a-blog-application-with-django/
 * Contains code from the documentation from all the "Django Apps used", links up in the section.
 * CSS/templates from Start Bootstrap's [Clean Blog](https://startbootstrap.com/theme/clean-blog)
+* Comments in models, views, forms, feeds are modifed with the help of [chatgpt](https://chat.openai.com/)
