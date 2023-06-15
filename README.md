@@ -61,7 +61,8 @@ Here is a link to the Project on github [My Blog Agile Project](https://github.c
 
 ## Design and Layout
 
-
+For this project i used Start Bootstrap's [Clean Blog](https://startbootstrap.com/theme/clean-blog) theme. I've used it before when 
+making an app using Flask for a [Code Institute](https://codeinstitute.net) mini-project and thought it would go perfect with this blog.
 
 
 
@@ -76,7 +77,7 @@ Here is a link to the Project on github [My Blog Agile Project](https://github.c
 <hr>
 
 * ### Log In, Sign Up, Log Out
-    * if the user want to comment and/or like the blof post the user can create an account. The user can choose to create an own account using username/password or log in via Github or Google. If the user are currently logged in, the user can choose to log out. 
+    * if the user want to comment and/or like the blof post the user can create an account. The user can choose to create an own account using username/password or log in via Google. If the user are currently logged in, the user can choose to log out. 
 
 <br>
 <img src="" width="20%">
@@ -137,10 +138,6 @@ All tests passed.
     * The pep8 validator used is from [Code Institute](https://codeinstitute.net)
     * Link to it can be found here: [Python PEP8 validator from CI](https://pep8ci.herokuapp.com/)
 
-<br>
- <img src="" width="40%"> 
-<hr>
-
 ### Bugs
 
 #### No bugs encountered
@@ -148,12 +145,16 @@ All tests passed.
 <hr>
 
 ## Deployment
-* Steps for deployment on [Heroku](https://www.heroku.com/)
-    * Fork or clone this github repository.
+* Steps for early deployment on [Heroku](https://www.heroku.com/)
     * Create a new Heroku app.
-    * Set the Buildpacks to python and node.js (in that order).
-    * Link the heroku app to the repository.
-    * Click on 'deploy'.
+    * Go to Settings,
+        - set the needed Config Vars.
+    * Go to Deploy
+        - Connect the heroku app to the github repository.
+        - Click on 'Deploy Branch'.
+    
+* Steps for final deployment on [Heroku](https://www.heroku.com/)
+
 <hr>
 
 ## Credits/Content
@@ -161,9 +162,8 @@ All tests passed.
 * [Google](https://console.cloud.google.com/) for the social login API.
 * Contains code from [Code Institute](https://codeinstitute.net) miniproject [Django Blog](https://github.com/codingbyfreddish/DjangoBlog)
 * Contains code from https://djangocentral.com/building-a-blog-application-with-django/
-* Contains code from the documentation from all the "Django Apps used".
+* Contains code from the documentation from all the "Django Apps used", links up in the section.
 * CSS/templates from Start Bootstrap's [Clean Blog](https://startbootstrap.com/theme/clean-blog)
-* The deployment section in this readme file is from the sample from [Code Institute](https://codeinstitute.net).
 
 ## Acknowledgments
 * 
