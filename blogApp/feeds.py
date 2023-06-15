@@ -4,6 +4,12 @@ from django.utils.feedgenerator import Atom1Feed
 from django.urls import reverse
 from .models import Post
 
+"""
+A feed for the latest posts in a blog.
+This feed generates an RSS and Atom feed containing the latest posts from a blog.
+It includes the title, link, and description for each post.
+"""
+
 
 class LatestPostFeed(Feed):
     title = 'Myblog'
