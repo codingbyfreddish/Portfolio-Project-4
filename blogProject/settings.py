@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pp4-byfreddish.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['pp4-byfreddish.herokuapp.com', 'localhost', '8000-codingbyfre-portfoliopr-la53pykl5p5.ws-eu99.gitpod.io']
 
 
 # Application definition
@@ -70,14 +70,6 @@ SOCIALACCOUNT_PROVIDERS = {
         'APP': {
             'client_id': '421496571718-7dr932mv1q7prcrva728h3s6tj5426mq.apps.googleusercontent.com',
             'secret': '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',
-            'key': ''
-        }
-    },
-
-    'github': {
-        'APP': {
-            'client_id': '5af754e2a9daf4a69a70',
-            'secret': '82301c9e6dc1db80a8e112ffa456409cbb2f8708',
             'key': ''
         }
     },

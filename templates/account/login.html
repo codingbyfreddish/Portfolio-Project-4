@@ -20,9 +20,6 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
 
   <ul class="socialaccount_providers ms-auto py-4 py-lg-0">
     <li class="px-lg-3 py-3 py-lg-4">
-      <a href="{% provider_login_url 'github' %}">Sign in with Github</a> 
-    </li>
-    <li class="px-lg-3 py-3 py-lg-4">
       <a href="{% provider_login_url 'google' %}">Sign in with Google</a>
     </li>
   </ul>
@@ -42,7 +39,7 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
-  <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
+  <button class="btn btn-primary text-uppercase" type="submit">{% trans "Sign In" %}</button>
 </form>
 
 {% endblock %}
