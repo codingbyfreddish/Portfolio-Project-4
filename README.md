@@ -3,7 +3,10 @@
  ## Welcome to my fourth Portfolio Project!
 
 This is my fourth project (of five) for my full-stack dev. course at [Code Institute](https://codeinstitute.net). I choose a Blog application for this project. A blog is a good way to show off what Django can do.
-It runs on on [Heroku](www.heroku.com). <br> The link to the blog can be found [here](https://.herokuapp.com/).
+
+<br> 
+
+It runs on on [Heroku](www.heroku.com). The link to the blog can be found [here](https://pp4-byfreddish.herokuapp.com/).
 
   
 <br>
@@ -55,7 +58,7 @@ I then used Github "project"-feature to set up a board for Todo, In Progress and
 
 Here is a link to the Project on github [My Blog Agile Project](https://github.com/users/codingbyfreddish/projects/13).
 
-<img src="" width="30%">
+<img src="media/images/agileboard.png" width="30%">
 
 <hr>
 
@@ -71,14 +74,14 @@ making an app using Flask for a [Code Institute](https://codeinstitute.net) mini
     * On the main page the user get the ability to log in or sign up from the links in the navigation bar. The user can also scroll down and read the blog post list, a list of all avaible posts to read. 
 
 <br>
-<img src="" width="30%">
+<img src="media/images/mainpage.png" width="30%">
 <hr>
 
 * ### Log In, Sign Up, Log Out
     * if the user want to comment and/or like the blof post the user can create an account. The user can choose to create an own account using username/password or log in via Google. If the user are currently logged in, the user can choose to log out. 
 
 <br>
-<img src="" width="20%">
+<img src="media/images/navbar.png" width="40%">
 <hr>
 
 
@@ -87,27 +90,28 @@ making an app using Flask for a [Code Institute](https://codeinstitute.net) mini
 
 
 <br>
-<img src="" width="40%">
+<img src="media/images/bloglist.png" width="20%">
 <hr>    
 
 * ### Footer
     * The footer is clean, simple and pragmatic. Just a icon link to my github account with a copyright below.
 
 <br>
-<img src="" width="20%">
+<img src="media/images/footer.png" width="40%">
 <hr>
 
 * ### The Blog Post
-    * When clicked on the main page the user get redirected to the Blog Post. It contains a image, excerpt, text and the ablity to like and view comments. If the user is logged in, the user can make a comment. The comment needs approvel before being visable on the page tho.
+    * When clicked on the main page the user get redirected to the Blog Post. It contains a image, text and the ablity to like and view comments. If the user is logged in, the user can make a comment. The comment needs approvel before being visable on the page tho.
 
 <br>
-<img src="" width="20%">
+<img src="media/images/blogpost.png" width="20%">
 <hr>    
 
 * ### RSS feed 
     * The RSS feed (Really Simple Syndication) is a way to show another feature of django, the syndication feed framework.
     The user can add My blog to the browers RSS feed and update then a new blog post is published.
  
+<hr>
 
 ## Testing
 
